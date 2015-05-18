@@ -11,12 +11,12 @@ a:hover {
 }
 .heading { 
 	font-family: 'Source Sans Pro', sans-serif; 
-	font-weight: 700; 
+	font-weight: 600; 
 	font-size: 5em;
 }
 .subheading { 
 	font-family: 'Source Sans Pro', sans-serif; 
-	font-weight: 700; 
+	font-weight: 300; 
 	font-size: 1em;
 }
 #faded-border {
@@ -42,9 +42,12 @@ a:hover {
 #nav {
 	display: inline-block;
 	font-size: 1.2em;
-	font-weight: 700;
+	font-weight: 300;
 	margin-left: auto;
 	margin-right: auto;
+}
+#nav a {
+	color:#555;
 }
 #nav span.link {
 	opacity:1;
@@ -69,9 +72,9 @@ a:hover {
 	text-align: center;
 }
 #about-content {
-	color:#999;
-	font-size: 21px;
-	font-weight: 400;
+	color:#888;
+	font-size: 22px;
+	font-weight: 300;
 	text-align: left;
 	display: inline-block;
 	width: 45%;
