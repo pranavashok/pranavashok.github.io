@@ -3,6 +3,8 @@
 <link href='style.css' rel='stylesheet' type='text/css'>
 <title>Pranav Ashok</title>
 <body>
+<div class="box">
+	<div class="row header">
 	<div id="spacer-header"></div>
 	<div id="header">
 		<div class="center">
@@ -30,18 +32,24 @@
 		<br />
 		<div id="faded-border"></div>
 	</div>
+	</div>
+	<div class="row content">
 	<div id="spacer-content"></div>
 	<div id="content">
 		<div id="about-content">
 		Hello, I'm currently a Computer Science master's student at <a href="http://www.cmi.ac.in">Chennai Mathematical Institute</a>. Prior to this, I earned a bachelor's degree in <a href="http://cse.nitc.ac.in/">Computer Science and Engineering</a> from <a href="http://www.nitc.ac.in">National Institute of Technology, Calicut</a>. After a brief stint as a developer at <a href="http://www.commvault.com">Commvault Systems, Hyderabad</a>, I found my way back to academia. More on my academic and professional pursuits is detailed in my <a href="PranavAshokCV.pdf">curriculum vitae</a>. <br /><br /> I am fascinated by the idea of <em>scientific method</em> and want to apply it in places it hasn't been previously applied. Previously, I have been involved in conceptualizing, designing and development of websites, creation of posters, and writing <a href="https://github.com/pranavashok">dinky programs</a>. I find immense happiness in rediscovering and reinventing already existing stuff.
 		</div>
 	</div>
-	<div id="last-modified"></div>
+	</div>
+	<div class="row footer">
+		<div id="last-modified"></div>
 	<script language="javascript">
 	(function() {
 		x = document.lastModified;
 		document.getElementById("last-modified").innerHTML = "Last modified on "+x.substr(0,10);
 	})();
 	</script>
+	</div>
+</div>
 </body>
 </html>

@@ -1,6 +1,25 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif; 
 	color:#555;
+	height:98%;
+}
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+.box .row {
+  flex: 0 1 30px;
+}
+
+.box .row.header {
+  flex: 1 0 auto;
+}
+.box .row.content {
+  flex: 1 0 auto;
+}
+.box .row.footer {
+  flex: 0 1 auto;
 }
 a {
 	text-decoration: none;
@@ -85,7 +104,4 @@ a:hover {
 #last-modified {
 	font-size: 14px;
 	font-weight: 300;
-	position:absolute;
-	left:0%;
-	bottom:0%;
 }
