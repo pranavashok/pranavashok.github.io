@@ -1,0 +1,3 @@
+[submodule "konkani-keyboard"]
+	path = konkani-keyboard
+	url = https://github.com/pranavashok/konkani-keyboard
