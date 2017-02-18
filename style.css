@@ -1,5 +1,5 @@
 body {
-	font-family: 'Source Sans Pro', sans-serif; 
+	font-family: 'Source Sans Pro', sans-serif;
 	color:#555;
 	height:98%;
 }
@@ -23,19 +23,19 @@ body {
 }
 a {
 	text-decoration: none;
-	color: #36AAD8;
+	color: #0073a2;
 }
 a:hover {
-	color:#444;
+	color:#000;
 }
-.heading { 
-	font-family: 'Source Sans Pro', sans-serif; 
-	font-weight: 600; 
+.heading {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
 	font-size: 5em;
 }
-.subheading { 
-	font-family: 'Source Sans Pro', sans-serif; 
-	font-weight: 300; 
+.subheading {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
 	font-size: 1em;
 }
 #faded-border {
@@ -94,8 +94,8 @@ a:hover {
 	text-align: center;
 }
 #about-content {
-	color:#888;
-	font-size: 22px;
+	color:#2f2e2e;
+	font-size: 18px;
 	font-weight: 300;
 	text-align: justify;
 	display: inline-block;
