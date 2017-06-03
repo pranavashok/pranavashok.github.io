@@ -14,6 +14,7 @@ body {
 
 .box .row.header {
   flex: 1 0 auto;
+  height: 20%;
 }
 .box .row.content {
   flex: 1 0 auto;
